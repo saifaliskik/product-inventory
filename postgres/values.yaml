@@ -1,0 +1,16 @@
+global:
+  storageClass: "standard"
+
+postgresql:
+  username: saifalisk
+  password: Saifalisk@1
+  database: product
+  port: 5432
+
+persistence:
+  enabled: true
+  size: 4Gi
+  storageClass: "standard"
+
+service:
+  type: ClusterIP
